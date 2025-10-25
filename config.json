@@ -1,0 +1,46 @@
+{
+    "acoes": [
+        {
+            "nome": "chamar enfermeiro",
+            "dispositivos": [
+                "painel da enfermagem"
+            ]
+        },
+        {
+            "nome": "solicitar enfermeiro",
+            "dispositivos": [
+                "painel da enfermagem"
+            ]
+        },
+        {
+            "nome": "aumentar",
+            "dispositivos": [
+                "iluminação"
+            ]
+        },
+        {
+            "nome": "diminuir",
+            "dispositivos": [
+                "iluminação"
+            ]
+        },
+        {
+            "nome": "abaixar",
+            "dispositivos": [
+                "iluminação"
+            ]
+        },
+        {
+           "nome": "ajustar posição",
+            "dispositivos": [
+                "leito"
+            ] 
+        },
+        {
+           "nome": "ativar modo de emergência",
+            "dispositivos": [
+                "sirene"
+            ] 
+        }
+    ]
+}
