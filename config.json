@@ -37,7 +37,7 @@
             ] 
         },
         {
-           "nome": "ativar modo de emergência",
+           "nome": "ativar modo emergência",
             "dispositivos": [
                 "sirene"
             ] 
