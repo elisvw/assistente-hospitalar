@@ -10,7 +10,7 @@ ABAIXAR_ILUMINACAO = './audios/abaixar_iluminacao.wav'
 AJUSTAR_POSICAO = './audios/ajustar_posicao_leito.wav'
 ATIVAR_MODO_EMERGENCIA = './audios/ativar_modo_emergencia.wav'
 
-class TestesLampada(unittest.TestCase):
+class Testes(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.dispositivo = 'cuda:0' if torch.cuda.is_available() else 'cpu'
