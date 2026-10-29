@@ -1,6 +1,6 @@
 from nltk import word_tokenize, corpus
-from inicializador_modelo import *
-from transcritor import *
+from src.inicializador_modelo import *
+from src.transcritor import *
 from threading import Thread
 import secrets
 import pyaudio
@@ -8,10 +8,10 @@ import wave
 import json
 import os
 
-from painel_enfermagem import *
-from motor_leito import *
-from iluminacao import *
-from sirene import *
+from src.painel_enfermagem import *
+from src.motor_leito import *
+from src.iluminacao import *
+from src.sirene import *
 
 LINGUAGEM = 'portuguese'
 FORMATO = pyaudio.paInt16
